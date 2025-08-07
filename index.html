@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MoodMate - Mood Based Recommender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>MoodMate 🎵</h1>
+    <p>Select your current mood:</p>
+    <div class="mood-buttons">
+      <button onclick="showMoodContent('happy')">😊 Happy</button>
+      <button onclick="showMoodContent('sad')">😢 Sad</button>
+      <button onclick="showMoodContent('angry')">😡 Angry</button>
+      <button onclick="showMoodContent('relaxed')">😌 Relaxed</button>
+    </div>
+    <div id="result" class="result-box"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

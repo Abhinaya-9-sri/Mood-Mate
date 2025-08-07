@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom right, #f0f0f0, #dcdcdc);
+  transition: background 0.5s ease;
+}
+
+.container {
+  padding: 40px;
+}
+
+.mood-buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.mood-buttons button:hover {
+  transform: scale(1.05);
+}
+
+.result-box {
+  margin-top: 30px;
+  font-size: 20px;
+}
